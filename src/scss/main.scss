@@ -1,0 +1,33 @@
+.icon {
+  width: 32px;
+  height: 32px;
+  fill: #ccc;
+}
+
+.icon.clock {
+  width: 320px;
+  height: 320px;
+}
+
+.clock {
+  display: table;
+  margin: 0 auto;
+}
+
+.main-header {
+  color: #FDB900;
+  font-family: "Helvetica Neue", sans-serif;
+  font-size: 5em;
+  text-align: center;
+
+
+  span:nth-child(2) {
+    font-size: 0.8em;
+  }
+
+  span:nth-child(3) {
+    font-size: 0.5em;
+  }
+
+
+}

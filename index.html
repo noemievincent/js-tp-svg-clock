@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="dist/css/main.css">
+    <title>SVG clock</title>
+</head>
+<body>
+<h1 class="main-header"><span>Tic tac&hellip;</span><span>Tic tac&hellip;</span><span>Tic tac&hellip;</span></h1>
+<div class="clock">
+
+    <svg height="0" width="0" style="position:absolute;margin-left: -100%;">
+        <g id="clock">
+            <rect id="minutes" transform="rotate(0 16 17)" x="15.386" y="6.464" fill="#ccc" width="1.227"
+                  height="11.439"/>
+
+            <rect id="hours" transform="rotate(0 16 17)" x="15.386" y="10.291" fill="#ccc" width="1.227"
+                  height="7.626"/>
+
+            <rect id="seconds" transform="rotate(0 16 17)" x="15.88" y="7.46" fill="#ccc" width="0.24" height="9.83"/>
+
+            <path fill="#FDB900" d="M15.879,2.531c-8.14,0-14.739,6.599-14.739,14.739c0,8.14,6.599,14.739,14.739,14.739s14.739-6.6,14.739-14.739
+	C30.618,9.13,24.02,2.531,15.879,2.531z M15.879,30.852c-7.511,0-13.6-6.089-13.6-13.6c0-7.511,6.089-13.601,13.6-13.601	c7.511,0,13.6,6.089,13.6,13.601C29.479,24.763,23.391,30.852,15.879,30.852z"/>
+        </g>
+    </svg>
+
+    <svg class="icon clock" viewBox="0 0 32 32">
+        <use xlink:href="#clock"></use>
+    </svg>
+</div>
+
+</body>
+</html>
