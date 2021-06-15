@@ -4,7 +4,7 @@ const Clock = {
      */
     init() {
         this.SECONDS_IN_ONE_HOUR = 60 * 60; // 60 secondes * 60 minutes
-        this.MINUTES_IN_ONE_DAY = 23 * 60; // 24 hours * 60 minutes
+        this.MINUTES_IN_ONE_DAY = 24 * 60; // 24 hours * 60 minutes
         this.loadElements();
         setInterval(this.renderClock.bind(this), 1000); // You have to force the context of the renderClock function to this.
     },
