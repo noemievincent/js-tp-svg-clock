@@ -52,11 +52,13 @@ Pour cela vous devez :
 * Toute fraction de temps peut être convertie vers une fraction de cercle.
 * Si 60 secondes, dans une minute, remplissent 360 degrés dans un cercle alors par une règle de trois, on retrouve la proportion qu'entretiennent les secondes avec les degrés. Voici un exemple où je calcule la rotation nécessaire de la trotteuse, pour 18 secondes. 
 
-$$
-60 secondes = 360° \\
-1 seconde = 6° \\
-18 secondes  = 108°
-$$
+```
+60 secondes = 360°
+  1 seconde = 6°
+18 secondes = 108°
+```
+
+
 
 * Poursuivons avec les minutes. Par exemple, 18 minutes représentent un peu plus d'un quart d'heure. Très exactement 18 minutes des 60 disponibles dans une heure. Si nous voulons connaître la proportion exacte, il nous suffit donc de diviser 18 minutes pars les 60 disponibles `(18/60)`. Il ne reste plus qu'à appliquer ce rapport aux degrés du cercle. Soit `(18/60)*360`
 * Pour les heures, c'est le même principe, je vous laisse trouver. Notez, tout de même, qu'il y a bien 24 heures dans une journée, or, vous, dans le cadre de votre horloge, vous traitez indifféremment l’affichage, qu'il soit 3 heures ou 15 heures. Dans les deux cas, vous devez donc placer l’aiguille à la même position.
